@@ -7,7 +7,9 @@ using UnityEngine.UI;
 public class MessageBox : MonoBehaviour
 {
     private MessageBox()
-    { }
+    { 
+	print("123");
+    }
 
     private static GameObject messageBoxObj;
     private static GameObject canvas;
