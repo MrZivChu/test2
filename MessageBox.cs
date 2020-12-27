@@ -8,7 +8,7 @@ public class MessageBox : MonoBehaviour
 {
     private MessageBox()
     { 
-	print("123");
+	print("master");
     }
 
     private static GameObject messageBoxObj;
